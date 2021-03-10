@@ -6,9 +6,9 @@ h1, h2, h3 , h4, h5, h6 {
   p {
     font-family: 'Jura', sans-serif;
   }
-  
+
   /* Navigation bar */
-  
+
   /* General */
   .customNav {
     position: fixed;
@@ -29,7 +29,7 @@ h1, h2, h3 , h4, h5, h6 {
   .nav-item {
     margin: 0px 15px;
   }
-  
+
   /* Navigation dropdown menu */
   .dropdown-menu {
     background: url("../Images/transparency.png");
@@ -41,7 +41,7 @@ h1, h2, h3 , h4, h5, h6 {
       text-decoration: none;
       background: black;
   }
-  
+
   /* Navigation links */
   .customNav a {
     color: white !important;
@@ -49,7 +49,7 @@ h1, h2, h3 , h4, h5, h6 {
   .navCTA {
     font-size: 15px;
   }
-  
+
   /* Jumbotron  */
   .jumbotron {
     background-image: url(../Images/Hero.jpeg);
@@ -60,7 +60,7 @@ h1, h2, h3 , h4, h5, h6 {
     align-items: center;
     justify-content: center;
   }
-  
+
   /* Jumbotron copy */
   .jumboCopy {
     width: 70%;
@@ -69,10 +69,12 @@ h1, h2, h3 , h4, h5, h6 {
     color: white;
     text-align: center;
   }
-  
+
   /* Cards */
   .content {
     padding: 50px;
+    overflow: hidden;
+    transition: height 1s ease-out;
   }
   .sectionHeading {
     text-align: center;
@@ -86,7 +88,19 @@ h1, h2, h3 , h4, h5, h6 {
   .card{
     background-color: #f8f9fa;
   }
-  
+
+
+/*Show Hide Content*/
+.showHideButton {
+    display: block;
+    width: 240px;
+    height: 40px;
+    margin: 24px auto 0;
+}
+
+
+
+
   /* Footer */
   .emailContain {
     background: url(../Images/Footer.jpeg);
@@ -98,7 +112,7 @@ h1, h2, h3 , h4, h5, h6 {
     justify-content: center;
     height: 500px;
   }
-  
+
   /* Footer form */
   form {
     width: 500px;
@@ -110,7 +124,7 @@ h1, h2, h3 , h4, h5, h6 {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
     background-color: white;
   }
-  
+
   /* STYLES FOR TEMPLATE */
   .dropdown-menu {
     left: -97px;
@@ -129,4 +143,3 @@ h1, h2, h3 , h4, h5, h6 {
   .card {
     margin: 0 auto;
   }
-  
